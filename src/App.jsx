@@ -1,23 +1,12 @@
 import React from "react";
-import { Link, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
+import Navbar from "./pages/Navbar"; // adjust the path if different
 
-function App() {
+export default function App() {
   return (
-    <div>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/cart">Cart</Link>
-          </li>
-        </ul>
-      </nav>
-
-      <Outlet />
-    </div>
+    <>
+      <Navbar />
+      <Outlet /> {/* renders Home, Cart, or Checkout depending on route */}
+    </>
   );
 }
-
-export default App;

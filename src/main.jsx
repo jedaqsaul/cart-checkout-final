@@ -6,6 +6,7 @@ import App from "./App";
 import Home from "./pages/Home";
 import Cart from "./pages/Cart";
 import Checkout from "./pages/Checkout";
+import Navbar from "./pages/Navbar";
 
 const router = createBrowserRouter([
   {

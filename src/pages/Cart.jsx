@@ -4,6 +4,7 @@ import { useState } from "react";
 import CartItem from "./CartItem";
 import "./Cart.css";
 import { Link } from "react-router-dom";
+import Navbar from "./Navbar";
 
 export default function Cart() {
   const [cartItems, setCartItems] = useState([]);
@@ -55,6 +56,7 @@ export default function Cart() {
   );
   return (
     <div className="cart-container">
+      <Navbar />
       <div className="cart-items">
         {cartItems.map((item) => (
           <CartItem
