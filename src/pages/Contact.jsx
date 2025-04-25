@@ -21,7 +21,6 @@ export default function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Simulate form submission (no backend specified)
     setIsSubmitted(true);
     setTimeout(() => {
       setIsSubmitted(false);
@@ -30,106 +29,84 @@ export default function Contact() {
   };
 
   return (
-    <div className="contact-us-container">
-      <section className="hero-section">
-        <h1 className="hero-title">Contact Us</h1>
-        <p className="hero-subtitle">
+    <div className="bg-gray-50 min-h-screen py-12 px-4 sm:px-6 lg:px-8">
+      <section className="text-center mb-12">
+        <h1 className="text-4xl font-bold text-indigo-600 mb-2">Contact Us</h1>
+        <p className="text-gray-600 text-lg">
           Have questions about our hotels or menus? Reach out to us!
         </p>
       </section>
 
-      <div className="contact-content">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-6xl mx-auto">
         {/* Contact Information */}
-        <div className="contact-info">
-          <h2 className="section-title">Get in Touch</h2>
-          <div className="info-item">
-            <PhoneIcon className="icon w-6 h-6 text-gray-600" />
-            <p>+254 123 456 789</p>
+        <div className="space-y-6">
+          <h2 className="text-2xl font-semibold text-gray-800">Get in Touch</h2>
+          <div className="flex items-center space-x-3">
+            <PhoneIcon className="w-6 h-6 text-indigo-500" />
+            <p className="text-gray-700">+254 123 456 789</p>
           </div>
-          <div className="info-item">
-            <EnvelopeIcon className="icon w-6 h-6 text-gray-600" />
-            <p>support@hotelmenus.app</p>
+          <div className="flex items-center space-x-3">
+            <EnvelopeIcon className="w-6 h-6 text-indigo-500" />
+            <p className="text-gray-700">support@hotelmenus.app</p>
           </div>
-          <div className="info-item">
-            <MapPinIcon className="icon w-6 h-6 text-gray-600" />
-            <p>Nairobi, Kenya</p>
+          <div className="flex items-center space-x-3">
+            <MapPinIcon className="w-6 h-6 text-indigo-500" />
+            <p className="text-gray-700">Nairobi, Kenya</p>
           </div>
         </div>
 
         {/* Contact Form */}
-        <div className="contact-form">
+        <div className="bg-white p-8 rounded-lg shadow-md">
           {isSubmitted ? (
-            <div className="success-message">
-              <p>Thank you for your message! We'll get back to you soon.</p>
+            <div className="text-green-600 text-center font-medium">
+              Thank you for your message! We'll get back to you soon.
             </div>
           ) : (
-            <form onSubmit={handleSubmit}>
-              <h2 className="section-title">Send Us a Message</h2>
-              <div className="form-group">
-                <label htmlFor="name" className="sr-only">
-                  Name
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  placeholder="Your Name"
-                  className="form-input"
-                  required
-                  aria-label="Your Name"
-                />
-              </div>
-              <div className="form-group">
-                <label htmlFor="email" className="sr-only">
-                  Email
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  placeholder="Your Email"
-                  className="form-input"
-                  required
-                  aria-label="Your Email"
-                />
-              </div>
-              <div className="form-group">
-                <label htmlFor="subject" className="sr-only">
-                  Subject
-                </label>
-                <input
-                  type="text"
-                  id="subject"
-                  name="subject"
-                  value={formData.subject}
-                  onChange={handleChange}
-                  placeholder="Subject"
-                  className="form-input"
-                  required
-                  aria-label="Subject"
-                />
-              </div>
-              <div className="form-group">
-                <label htmlFor="message" className="sr-only">
-                  Message
-                </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                  placeholder="Your Message"
-                  className="form-textarea"
-                  rows="5"
-                  required
-                  aria-label="Your Message"
-                ></textarea>
-              </div>
-              <button type="submit" className="submit-button">
+            <form onSubmit={handleSubmit} className="space-y-6">
+              <h2 className="text-2xl font-semibold text-gray-800">
+                Send Us a Message
+              </h2>
+
+              <input
+                type="text"
+                name="name"
+                value={formData.name}
+                onChange={handleChange}
+                placeholder="Your Name"
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
+                placeholder="Your Email"
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none"
+                required
+              />
+              <input
+                type="text"
+                name="subject"
+                value={formData.subject}
+                onChange={handleChange}
+                placeholder="Subject"
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none"
+                required
+              />
+              <textarea
+                name="message"
+                value={formData.message}
+                onChange={handleChange}
+                placeholder="Your Message"
+                rows="5"
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none"
+                required
+              ></textarea>
+              <button
+                type="submit"
+                className="w-full bg-indigo-600 text-white py-2 rounded-lg font-medium hover:bg-indigo-700 transition"
+              >
                 Send Message
               </button>
             </form>

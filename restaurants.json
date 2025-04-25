@@ -4,6 +4,7 @@
       "id": "1",
       "name": "Savanna Grill",
       "cuisineType": "Nyama Choma",
+      "image": "https://media.istockphoto.com/id/1218638665/photo/woman-cooks-meat-on-a-street-of-kampala-uganda.jpg?s=612x612&w=0&k=20&c=nBjJJvMkQNtbXQWNwGcsPI5YibnDIu9kJ34xSarzwMw=",
       "featured": true,
       "menu": [
         {
@@ -48,6 +49,7 @@
       "id": "2",
       "name": "La Dolce Vita",
       "cuisineType": "Italian",
+      "image": "https://media.istockphoto.com/id/539108566/photo/tagliatelle-with-steak-and-mushrooms.jpg?s=612x612&w=0&k=20&c=nwIRKniJhtHprYtrf1utmchP7DMLXRDAhUN40nQg6OA=",
       "featured": true,
       "menu": [
         {
@@ -92,6 +94,7 @@
       "id": "3",
       "name": "Dragon Palace",
       "cuisineType": "Chinese",
+      "image": "https://media.istockphoto.com/id/1397240189/photo/mongolian-shrimp-with-udon-noodles.jpg?s=612x612&w=0&k=20&c=jCbkpxsjrIQt1kJpONorK_WI7WW1df7FQnJxmq5RdOY=",
       "featured": false,
       "menu": [
         {
@@ -136,6 +139,7 @@
       "id": "4",
       "name": "Taco Fiesta",
       "cuisineType": "Mexican",
+      "image": "https://media.istockphoto.com/id/1349480436/photo/homemade-pork-carnitas-tacos.jpg?s=612x612&w=0&k=20&c=CJkpVp7g_qnhW5G0CpjWGLES1SzGE3yu2S8f9KV3jDo=",
       "featured": true,
       "menu": [
         {
@@ -180,6 +184,7 @@
       "id": "5",
       "name": "Sahara Bites",
       "cuisineType": "Arabian",
+      "image": "https://media.istockphoto.com/id/489728696/photo/table-full-of-mezze.jpg?s=612x612&w=0&k=20&c=Ptqi6ngyoILxnvmAKNwjVHyu8vUF9b-6TZ9Y7onpGAg=",
       "featured": false,
       "menu": [
         {
@@ -224,6 +229,7 @@
       "id": "6",
       "name": "Mama's Kitchen",
       "cuisineType": "Authentic Kenyan Food",
+      "image": "https://media.istockphoto.com/id/882186476/photo/sharing-platter-of-a-traditional-kenyan-dish-nyama-choma-and-accompaniments-of-kachumbari.jpg?s=612x612&w=0&k=20&c=QUcFRMsRHotIRVompgUbV1wnU1eadl0uE72myRVpfjk=",
       "featured": true,
       "menu": [
         {
@@ -268,6 +274,7 @@
       "id": "7",
       "name": "Burger Bonanza",
       "cuisineType": "Fast Food",
+      "image": "https://media.istockphoto.com/id/1416033452/photo/cheeseburger-on-a-homemade-wooden-cutting-board-with-a-dark-background.jpg?s=612x612&w=0&k=20&c=DtiafCFiU08FdlxP4g4ZhhJAqeRuc7NGML4XWzPt--o=",
       "featured": false,
       "menu": [
         {
@@ -306,6 +313,7 @@
       "id": "8",
       "name": "Spice Haven",
       "cuisineType": "Indian",
+      "image": "https://media.istockphoto.com/id/922783734/photo/assorted-indian-recipes-food-various.jpg?s=612x612&w=0&k=20&c=p8DepvymWfC5j7c6En2UsQ6sUM794SQMwceeBW3yQ9M=",
       "featured": true,
       "menu": [
         {
@@ -477,6 +485,7 @@
     {
       "id": "10",
       "name": "Ocean Breeze",
+      "image": "https://media.istockphoto.com/id/1000867696/photo/big-family-dinner-vertical-top-view-on-served-table-and-hands-with-clinking-goblets.jpg?s=612x612&w=0&k=20&c=qVx7Nsj6hHfrNgvdogTZfVw9eyJCp-h81PVl-kkuRAY=",
       "cuisineType": "Seafood",
       "featured": true,
       "menu": [
@@ -543,6 +552,48 @@
       "name": "Crab Cakes",
       "price": 850,
       "description": "Pan-fried crab cakes with remoulade."
+    },
+    {
+      "id": "9-9",
+      "name": "Udon Noodles",
+      "price": 700,
+      "description": "Thick noodles in broth."
+    },
+    {
+      "id": "9-12",
+      "name": "Seaweed Salad",
+      "price": 400,
+      "description": "Marinated seaweed with sesame."
+    },
+    {
+      "id": "9-15",
+      "name": "Mochi Ice Cream",
+      "price": 400,
+      "description": "Rice cake with ice cream filling."
+    },
+    {
+      "id": "10-1",
+      "name": "Grilled Lobster",
+      "price": 2000,
+      "description": "Fresh lobster with garlic butter."
+    },
+    {
+      "id": "1-6",
+      "name": "Sukuma Wiki",
+      "price": 150,
+      "description": "Sautéed collard greens with onions."
+    },
+    {
+      "id": "3-6",
+      "name": "Mapo Tofu",
+      "price": 700,
+      "description": "Spicy tofu with minced meat."
+    },
+    {
+      "id": "2-2",
+      "name": "Spaghetti Carbonara",
+      "price": 950,
+      "description": "Creamy pasta with bacon and egg."
     }
   ]
 }

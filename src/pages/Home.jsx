@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
-// Assuming you're now fetching this from your server:
 const RESTAURANT_API = "http://localhost:3000/restaurants";
 
 export default function Home() {
@@ -32,29 +31,51 @@ export default function Home() {
   };
 
   return (
-    <div className="max-w-6xl mx-auto p-6">
+    <div className="max-w-6xl mx-auto px-4 py-10">
       {!selectedRestaurant ? (
-        // Display Restaurant List
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-          {restaurants.map((restaurant) => (
-            <div
-              key={restaurant.id}
-              className="bg-white rounded-xl shadow hover:shadow-lg transition duration-200 p-4 cursor-pointer"
-              onClick={() => setSelectedRestaurant(restaurant)}
-            >
-              <h2 className="text-2xl font-bold text-gray-800 mb-2">
-                {restaurant.name}
-              </h2>
-              <p className="text-gray-600">{restaurant.cuisineType}</p>
-              <p className="text-sm text-indigo-500 mt-2">
-                Click to view menu →
-              </p>
-            </div>
-          ))}
-        </div>
+        <>
+          {/* 🌟 QuickBite Intro */}
+          <div className="text-center mb-12">
+            <h1 className="text-4xl font-bold text-gray-800 mb-4">
+              Welcome to <span className="text-indigo-600">QuickBite</span>
+            </h1>
+            <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+              Discover the best local flavors from your favorite nearby spots.
+              Browse, choose, and enjoy quick bites from handpicked restaurants
+              that bring your cravings to life.
+            </p>
+          </div>
+
+          {/* 🍽️ Restaurant Grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+            {restaurants.map((restaurant) => (
+              <motion.div
+                whileHover={{ scale: 1.02 }}
+                key={restaurant.id}
+                className="bg-white rounded-2xl shadow-md hover:shadow-2xl transition duration-300 overflow-hidden cursor-pointer"
+                onClick={() => setSelectedRestaurant(restaurant)}
+              >
+                <img
+                  src={restaurant.image}
+                  alt={restaurant.name}
+                  className="w-full h-48 object-cover"
+                />
+                <div className="p-4">
+                  <h2 className="text-xl font-bold text-gray-800">
+                    {restaurant.name}
+                  </h2>
+                  <p className="text-gray-500">{restaurant.cuisineType}</p>
+                  <p className="text-sm text-indigo-500 mt-2">
+                    Click to view menu →
+                  </p>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </>
       ) : (
-        // Display Menu for Selected Restaurant
-        <div>
+        <>
+          {/* 🍽️ Selected Restaurant Menu */}
           <button
             className="mb-6 text-indigo-600 hover:underline"
             onClick={() => setSelectedRestaurant(null)}
@@ -66,9 +87,10 @@ export default function Home() {
           </h1>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {selectedRestaurant.menu.map((dish) => (
-              <div
+              <motion.div
                 key={dish.id}
-                className="bg-white rounded-xl shadow hover:shadow-lg transition duration-200 p-4"
+                whileHover={{ scale: 1.02 }}
+                className="bg-white rounded-xl shadow-md hover:shadow-xl transition duration-200 p-4"
               >
                 <h2 className="text-xl font-semibold text-gray-800">
                   {dish.name}
@@ -78,20 +100,21 @@ export default function Home() {
                   Price: Ksh {dish.price}
                 </p>
                 <motion.button
+                  type="button"
                   whileTap={{ scale: 0.95 }}
                   whileHover={{ scale: 1.03 }}
                   onClick={(e) => {
-                    e.preventDefault(); // Prevents the page reload
+                    e.stopPropagation();
                     handleAddToCart(dish);
                   }}
                   className="w-full bg-indigo-500 text-white px-4 py-2 rounded hover:bg-indigo-600 transition"
                 >
                   Add to Cart
                 </motion.button>
-              </div>
+              </motion.div>
             ))}
           </div>
-        </div>
+        </>
       )}
     </div>
   );

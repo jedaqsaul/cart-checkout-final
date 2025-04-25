@@ -55,7 +55,6 @@ export default function Cart() {
 
   return (
     <div className="bg-gray-50 min-h-screen">
-      <Navbar />
       <div className="max-w-4xl mx-auto px-4 py-6">
         <h2 className="text-2xl font-bold mb-4">Your Cart</h2>
         {cartItems.length === 0 ? (
