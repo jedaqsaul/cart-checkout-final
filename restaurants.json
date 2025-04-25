@@ -1343,18 +1343,6 @@
   ],
   "cart": [
     {
-      "id": "3-3",
-      "name": "Fried Rice",
-      "price": 600,
-      "description": "Stir-fried rice with veggies and egg."
-    },
-    {
-      "id": "2-5",
-      "name": "Tiramisu",
-      "price": 600,
-      "description": "Coffee-flavored Italian dessert."
-    },
-    {
       "id": "5-8",
       "name": "Beef Mandi",
       "price": 1200,
@@ -1379,22 +1367,22 @@
       "description": "Rice cake with ice cream filling."
     },
     {
-      "id": "7-4",
-      "name": "Onion Rings",
-      "price": 350,
-      "description": "Crispy fried onion rings."
-    },
-    {
       "id": "1-1",
       "name": "Grilled Goat Ribs",
       "price": 1200,
       "description": "Juicy goat ribs grilled with Kenyan spices."
     },
     {
-      "id": "7-11",
-      "name": "Fish Fillet Burger",
-      "price": 600,
-      "description": "Crispy fish fillet with tartar sauce."
+      "id": "1-21",
+      "name": "Passion Fruit Soda",
+      "price": 200,
+      "description": "Refreshing passion fruit-flavored soda."
+    },
+    {
+      "id": "2-20",
+      "name": "Lemonade",
+      "price": 250,
+      "description": "Freshly squeezed lemonade."
     }
   ]
 }
