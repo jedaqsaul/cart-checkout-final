@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 
 export default function Home() {
   const [dishes, setDishes] = useState([]);
@@ -45,12 +46,14 @@ export default function Home() {
           <div className="p-4">
             <h2 className="text-xl font-semibold text-gray-800">{dish.name}</h2>
             <p className="text-gray-600 mb-2">Price: Ksh {dish.price}</p>
-            <button
+            <motion.button
+              whileTap={{ scale: 0.95 }}
+              whileHover={{ scale: 1.03 }}
               onClick={() => handleAddToCart(dish)}
               className="mt-2 w-full bg-indigo-500 text-white px-4 py-2 rounded hover:bg-indigo-600 transition"
             >
               Add to Cart
-            </button>
+            </motion.button>
           </div>
         </div>
       ))}
