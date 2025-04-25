@@ -39,6 +39,86 @@
       "price": 600,
       "image": "https://media.istockphoto.com/id/1146906219/photo/small-4inch-soft-beef-tacos.jpg?s=612x612&w=0&k=20&c=op1KqhazhHBSaPPw5fMOFK1AOeLrLNXlBnfS5HWWoXM=",
       "category": "Mexican"
+    },
+    {
+      "id": 6,
+      "name": "Pasta Carbonara",
+      "description": "Creamy pasta with eggs, cheese, pancetta, and black pepper.",
+      "price": 600,
+      "image": "https://media.istockphoto.com/id/943785646/photo/spaghetti-carbonara-with-garlic-bread.jpg?s=612x612&w=0&k=20&c=t_nYcGwfRIdS5OcaUy1bTN3TK1tRpktxXUif3SUuqlc=",
+      "category": "Pasta"
+    },
+    {
+      "id": 7,
+      "name": "BBQ Chicken Wings",
+      "description": "Grilled chicken wings glazed with smoky BBQ sauce.",
+      "price": 750,
+      "image": "https://media.istockphoto.com/id/1157380679/photo/marinated-bbq-chicken-wings-on-a-baking-grate-close-up.jpg?s=612x612&w=0&k=20&c=WENChTVwy2v8JoDuR0jwZFbOeLpjDnMJMUIYv2_88Vs=",
+      "category": "Chicken"
+    },
+    {
+      "id": 8,
+      "name": "Vegetarian Pizza",
+      "description": "Pizza topped with fresh veggies, olives, and cheese.",
+      "price": 850,
+      "image": "https://media.istockphoto.com/id/842082336/photo/homemade-veggie-pizza-with-mushrooms-peppers.jpg?s=612x612&w=0&k=20&c=op1vZnGjlB_c3w6Z-ohPo0wn4QveujVKZu4vTZCOWnc=",
+      "category": "Pizza"
+    },
+    {
+      "id": 9,
+      "name": "Fish Tacos",
+      "description": "Soft tortillas filled with seasoned fish, cabbage, and salsa.",
+      "price": 650,
+      "image": "https://media.istockphoto.com/id/491788887/photo/homemade-baja-fish-tacos.jpg?s=612x612&w=0&k=20&c=fed3j3tBn3pbBoKZchJRI6UqT01hNW5rXVF0wS2KJeA=",
+      "category": "Mexican"
+    },
+    {
+      "id": 10,
+      "name": "Grilled Shrimp",
+      "description": "Succulent shrimp grilled with garlic butter and herbs.",
+      "price": 800,
+      "image": "https://media.istockphoto.com/id/177316016/photo/grilled-shrimp-and-fish.jpg?s=612x612&w=0&k=20&c=Pfh-UXqUXdqQIsw3odd1gIucdruapJ4f6uTwZHIt0Zs=",
+      "category": "Seafood"
+    },
+    {
+      "id": 11,
+      "name": "Beef Lasagna",
+      "description": "Layered pasta with beef, cheese, and marinara sauce.",
+      "price": 850,
+      "image": "https://media.istockphoto.com/id/1459977932/photo/portion-of-ground-beef-lasagna-topped-with-melted-cheese-and-garnished-with-fresh-parsley.jpg?s=612x612&w=0&k=20&c=-9s92uq-5K6xJTbtsFkH3M5g-r8xBKqhLTFPwRkfr6A=",
+      "category": "Pasta"
+    },
+    {
+      "id": 12,
+      "name": "Chicken Quesadilla",
+      "description": "Grilled flour tortilla with chicken, cheese, and salsa.",
+      "price": 700,
+      "image": "https://media.istockphoto.com/id/1172292804/photo/cheesy-chicken-quesadilla.jpg?s=612x612&w=0&k=20&c=P2BC1qvNs61DIdhcR1f3Mj0zcnoQvtuya73fg77667U=",
+      "category": "Mexican"
+    },
+    {
+      "id": 13,
+      "name": "Spaghetti Bolognese",
+      "description": "Pasta with a rich meat sauce, tomatoes, and garlic.",
+      "price": 750,
+      "image": "https://media.istockphoto.com/id/1429067111/photo/spaghetti-bolognese-top-view-close-up-no-people-homemade.jpg?s=612x612&w=0&k=20&c=bbQNnyIcRNBUXgWemvw7EeFufrbKlMDeoft1POUtVEg=",
+      "category": "Pasta"
+    },
+    {
+      "id": 14,
+      "name": "Fish & Chips",
+      "description": "Crispy battered fish served with crispy fries.",
+      "price": 650,
+      "image": "https://media.istockphoto.com/id/459488805/photo/fish-and-chips-in-tray.jpg?s=612x612&w=0&k=20&c=rVZSaNQaIsE6sZFpMg2ORpOVt5QLJWePky3xvPzURwY=",
+      "category": "Seafood"
+    },
+    {
+      "id": 15,
+      "name": "Fried Chicken",
+      "description": "Crispy, golden-fried chicken with a juicy interior.",
+      "price": 700,
+      "image": "https://media.istockphoto.com/id/452813985/photo/plate-of-fried-chicken-on-blue-plaid-towel.jpg?s=612x612&w=0&k=20&c=e_03DvZFXhvbMR5eBiflKJ2nnQnoaBnufrT37h6Wf7s=",
+      "category": "Chicken"
     }
   ],
   "cart": [
