@@ -1,0 +1,1400 @@
+{
+  "restaurants": [
+    {
+      "id": "1",
+      "name": "Savanna Grill",
+      "cuisineType": "Nyama Choma",
+      "featured": true,
+      "menu": [
+        {
+          "id": "1-1",
+          "name": "Grilled Goat Ribs",
+          "price": 1200,
+          "description": "Juicy goat ribs grilled with Kenyan spices."
+        },
+        {
+          "id": "1-2",
+          "name": "Beef Skewers",
+          "price": 900,
+          "description": "Tender beef cubes marinated and grilled."
+        },
+        {
+          "id": "1-3",
+          "name": "Chicken Wings",
+          "price": 800,
+          "description": "Spicy grilled chicken wings with a smoky flavor."
+        },
+        {
+          "id": "1-4",
+          "name": "Pork Chops",
+          "price": 1000,
+          "description": "Succulent pork chops with a garlic rub."
+        },
+        {
+          "id": "1-5",
+          "name": "Ugali",
+          "price": 200,
+          "description": "Traditional Kenyan maize meal staple."
+        },
+        {
+          "id": "1-6",
+          "name": "Sukuma Wiki",
+          "price": 150,
+          "description": "Sautéed collard greens with onions."
+        },
+        {
+          "id": "1-7",
+          "name": "Kachumbari",
+          "price": 100,
+          "description": "Fresh tomato and onion salad with chili."
+        },
+        {
+          "id": "1-8",
+          "name": "Grilled Tilapia",
+          "price": 1100,
+          "description": "Whole tilapia fish grilled with lemon."
+        },
+        {
+          "id": "1-9",
+          "name": "Mutton Stew",
+          "price": 950,
+          "description": "Slow-cooked mutton in a rich tomato base."
+        },
+        {
+          "id": "1-10",
+          "name": "Chapati",
+          "price": 80,
+          "description": "Soft, layered Kenyan flatbread."
+        },
+        {
+          "id": "1-11",
+          "name": "Pilau Rice",
+          "price": 300,
+          "description": "Spiced rice with beef chunks."
+        },
+        {
+          "id": "1-12",
+          "name": "Grilled Sausages",
+          "price": 600,
+          "description": "Beef sausages with a smoky glaze."
+        },
+        {
+          "id": "1-13",
+          "name": "Nyama Choma Platter",
+          "price": 2000,
+          "description": "Assorted grilled meats for sharing."
+        },
+        {
+          "id": "1-14",
+          "name": "Mukimo",
+          "price": 250,
+          "description": "Mashed potatoes with peas and corn."
+        },
+        {
+          "id": "1-15",
+          "name": "Bean Stew",
+          "price": 200,
+          "description": "Hearty beans cooked in a tomato sauce."
+        },
+        {
+          "id": "1-16",
+          "name": "Grilled Lamb",
+          "price": 1300,
+          "description": "Tender lamb chops with rosemary."
+        },
+        {
+          "id": "1-17",
+          "name": "Fried Plantain",
+          "price": 150,
+          "description": "Sweet, caramelized plantain slices."
+        },
+        {
+          "id": "1-18",
+          "name": "Githeri",
+          "price": 200,
+          "description": "Boiled maize and beans mix."
+        },
+        {
+          "id": "1-19",
+          "name": "Spicy Beef Stew",
+          "price": 900,
+          "description": "Beef stew with chili and tomatoes."
+        },
+        {
+          "id": "1-20",
+          "name": "Fresh Mango Juice",
+          "price": 250,
+          "description": "Chilled mango juice, freshly squeezed."
+        },
+        {
+          "id": "1-21",
+          "name": "Passion Fruit Soda",
+          "price": 200,
+          "description": "Refreshing passion fruit-flavored soda."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "La Dolce Vita",
+      "cuisineType": "Italian",
+      "featured": true,
+      "menu": [
+        {
+          "id": "2-1",
+          "name": "Margherita Pizza",
+          "price": 1200,
+          "description": "Classic pizza with tomato and mozzarella."
+        },
+        {
+          "id": "2-2",
+          "name": "Spaghetti Carbonara",
+          "price": 950,
+          "description": "Creamy pasta with bacon and egg."
+        },
+        {
+          "id": "2-3",
+          "name": "Lasagna",
+          "price": 1100,
+          "description": "Layered pasta with beef and cheese."
+        },
+        {
+          "id": "2-4",
+          "name": "Fettuccine Alfredo",
+          "price": 900,
+          "description": "Fettuccine in a creamy Alfredo sauce."
+        },
+        {
+          "id": "2-5",
+          "name": "Tiramisu",
+          "price": 600,
+          "description": "Coffee-flavored Italian dessert."
+        },
+        {
+          "id": "2-6",
+          "name": "Caprese Salad",
+          "price": 700,
+          "description": "Tomato, mozzarella, and basil salad."
+        },
+        {
+          "id": "2-7",
+          "name": "Bruschetta",
+          "price": 500,
+          "description": "Toasted bread with tomato and garlic."
+        },
+        {
+          "id": "2-8",
+          "name": "Penne Arrabbiata",
+          "price": 850,
+          "description": "Spicy tomato sauce with penne."
+        },
+        {
+          "id": "2-9",
+          "name": "Risotto ai Funghi",
+          "price": 1000,
+          "description": "Creamy mushroom risotto."
+        },
+        {
+          "id": "2-10",
+          "name": "Garlic Bread",
+          "price": 300,
+          "description": "Toasted bread with garlic and butter."
+        },
+        {
+          "id": "2-11",
+          "name": "Chicken Parmesan",
+          "price": 1100,
+          "description": "Breaded chicken with marinara and cheese."
+        },
+        {
+          "id": "2-12",
+          "name": "Gnocchi",
+          "price": 900,
+          "description": "Potato dumplings in tomato sauce."
+        },
+        {
+          "id": "2-13",
+          "name": "Minestrone Soup",
+          "price": 500,
+          "description": "Vegetable soup with pasta."
+        },
+        {
+          "id": "2-14",
+          "name": "Calzone",
+          "price": 1200,
+          "description": "Folded pizza with ham and cheese."
+        },
+        {
+          "id": "2-15",
+          "name": "Pesto Pasta",
+          "price": 950,
+          "description": "Spaghetti with basil pesto sauce."
+        },
+        {
+          "id": "2-16",
+          "name": "Gelato",
+          "price": 400,
+          "description": "Italian ice cream, vanilla flavor."
+        },
+        {
+          "id": "2-17",
+          "name": "Prosciutto e Melone",
+          "price": 800,
+          "description": "Prosciutto with melon slices."
+        },
+        {
+          "id": "2-18",
+          "name": "Eggplant Parmigiana",
+          "price": 900,
+          "description": "Baked eggplant with cheese."
+        },
+        {
+          "id": "2-19",
+          "name": "Spaghetti Bolognese",
+          "price": 1000,
+          "description": "Pasta with meat sauce."
+        },
+        {
+          "id": "2-20",
+          "name": "Lemonade",
+          "price": 250,
+          "description": "Freshly squeezed lemonade."
+        },
+        {
+          "id": "2-21",
+          "name": "Espresso",
+          "price": 200,
+          "description": "Strong Italian coffee shot."
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Dragon Palace",
+      "cuisineType": "Chinese",
+      "featured": false,
+      "menu": [
+        {
+          "id": "3-1",
+          "name": "Sweet and Sour Pork",
+          "price": 900,
+          "description": "Crispy pork in a tangy sauce."
+        },
+        {
+          "id": "3-2",
+          "name": "Kung Pao Chicken",
+          "price": 850,
+          "description": "Spicy chicken with peanuts."
+        },
+        {
+          "id": "3-3",
+          "name": "Fried Rice",
+          "price": 600,
+          "description": "Stir-fried rice with veggies and egg."
+        },
+        {
+          "id": "3-4",
+          "name": "Spring Rolls",
+          "price": 400,
+          "description": "Crispy rolls with vegetable filling."
+        },
+        {
+          "id": "3-5",
+          "name": "Dumplings",
+          "price": 500,
+          "description": "Steamed dumplings with pork filling."
+        },
+        {
+          "id": "3-6",
+          "name": "Mapo Tofu",
+          "price": 700,
+          "description": "Spicy tofu with minced meat."
+        },
+        {
+          "id": "3-7",
+          "name": "Chow Mein",
+          "price": 800,
+          "description": "Stir-fried noodles with chicken."
+        },
+        {
+          "id": "3-8",
+          "name": "Hot and Sour Soup",
+          "price": 450,
+          "description": "Spicy and tangy soup with tofu."
+        },
+        {
+          "id": "3-9",
+          "name": "Beef and Broccoli",
+          "price": 900,
+          "description": "Beef stir-fry with broccoli."
+        },
+        {
+          "id": "3-10",
+          "name": "Egg Drop Soup",
+          "price": 400,
+          "description": "Light soup with egg ribbons."
+        },
+        {
+          "id": "3-11",
+          "name": "Szechuan Shrimp",
+          "price": 1000,
+          "description": "Spicy shrimp in Szechuan sauce."
+        },
+        {
+          "id": "3-12",
+          "name": "Vegetable Stir Fry",
+          "price": 600,
+          "description": "Mixed vegetables in soy sauce."
+        },
+        {
+          "id": "3-13",
+          "name": "Sesame Chicken",
+          "price": 850,
+          "description": "Crispy chicken in sesame sauce."
+        },
+        {
+          "id": "3-14",
+          "name": "Wonton Soup",
+          "price": 500,
+          "description": "Soup with pork wontons."
+        },
+        {
+          "id": "3-15",
+          "name": "Peking Duck",
+          "price": 1500,
+          "description": "Crispy duck with pancakes."
+        },
+        {
+          "id": "3-16",
+          "name": "Mango Pudding",
+          "price": 350,
+          "description": "Sweet mango dessert."
+        },
+        {
+          "id": "3-17",
+          "name": "General Tso's Chicken",
+          "price": 900,
+          "description": "Sweet and spicy chicken dish."
+        },
+        {
+          "id": "3-18",
+          "name": "Fried Wontons",
+          "price": 400,
+          "description": "Crispy wontons with dipping sauce."
+        },
+        {
+          "id": "3-19",
+          "name": "Egg Foo Young",
+          "price": 800,
+          "description": "Omelette with veggies and shrimp."
+        },
+        {
+          "id": "3-20",
+          "name": "Jasmine Tea",
+          "price": 200,
+          "description": "Hot jasmine tea."
+        },
+        {
+          "id": "3-21",
+          "name": "Lychee Juice",
+          "price": 250,
+          "description": "Refreshing lychee drink."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Taco Fiesta",
+      "cuisineType": "Mexican",
+      "featured": true,
+      "menu": [
+        {
+          "id": "4-1",
+          "name": "Beef Tacos",
+          "price": 600,
+          "description": "Soft tacos with seasoned beef."
+        },
+        {
+          "id": "4-2",
+          "name": "Chicken Enchiladas",
+          "price": 800,
+          "description": "Rolled tortillas with chicken and sauce."
+        },
+        {
+          "id": "4-3",
+          "name": "Guacamole",
+          "price": 400,
+          "description": "Fresh avocado dip with chips."
+        },
+        {
+          "id": "4-4",
+          "name": "Quesadillas",
+          "price": 700,
+          "description": "Cheese-filled tortillas, grilled."
+        },
+        {
+          "id": "4-5",
+          "name": "Chili con Carne",
+          "price": 850,
+          "description": "Spicy beef and bean stew."
+        },
+        {
+          "id": "4-6",
+          "name": "Nachos",
+          "price": 600,
+          "description": "Tortilla chips with cheese and salsa."
+        },
+        {
+          "id": "4-7",
+          "name": "Burrito",
+          "price": 900,
+          "description": "Flour tortilla with beef and beans."
+        },
+        {
+          "id": "4-8",
+          "name": "Tostadas",
+          "price": 500,
+          "description": "Crispy tortillas with toppings."
+        },
+        {
+          "id": "4-9",
+          "name": "Chicken Fajitas",
+          "price": 950,
+          "description": "Sizzling chicken with peppers."
+        },
+        {
+          "id": "4-10",
+          "name": "Salsa Fresca",
+          "price": 300,
+          "description": "Fresh tomato salsa with chips."
+        },
+        {
+          "id": "4-11",
+          "name": "Churros",
+          "price": 400,
+          "description": "Fried dough sticks with cinnamon."
+        },
+        {
+          "id": "4-12",
+          "name": "Mexican Rice",
+          "price": 350,
+          "description": "Spiced rice with tomatoes."
+        },
+        {
+          "id": "4-13",
+          "name": "Refried Beans",
+          "price": 300,
+          "description": "Creamy beans with spices."
+        },
+        {
+          "id": "4-14",
+          "name": "Tamales",
+          "price": 600,
+          "description": "Steamed corn dough with pork."
+        },
+        {
+          "id": "4-15",
+          "name": "Pozole",
+          "price": 700,
+          "description": "Hominy soup with pork."
+        },
+        {
+          "id": "4-16",
+          "name": "Shrimp Ceviche",
+          "price": 900,
+          "description": "Fresh shrimp with lime and chili."
+        },
+        {
+          "id": "4-17",
+          "name": "Flan",
+          "price": 400,
+          "description": "Caramel custard dessert."
+        },
+        {
+          "id": "4-18",
+          "name": "Elote",
+          "price": 350,
+          "description": "Grilled corn with cheese and chili."
+        },
+        {
+          "id": "4-19",
+          "name": "Carne Asada",
+          "price": 1000,
+          "description": "Grilled beef with tortillas."
+        },
+        {
+          "id": "4-20",
+          "name": "Horchata",
+          "price": 250,
+          "description": "Sweet rice milk drink."
+        },
+        {
+          "id": "4-21",
+          "name": "Margarita",
+          "price": 500,
+          "description": "Classic lime margarita."
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Sahara Bites",
+      "cuisineType": "Arabian",
+      "featured": false,
+      "menu": [
+        {
+          "id": "5-1",
+          "name": "Chicken Shawarma",
+          "price": 700,
+          "description": "Spiced chicken wrap with garlic sauce."
+        },
+        {
+          "id": "5-2",
+          "name": "Lamb Kebab",
+          "price": 900,
+          "description": "Grilled lamb skewers with spices."
+        },
+        {
+          "id": "5-3",
+          "name": "Hummus",
+          "price": 400,
+          "description": "Chickpea dip with pita bread."
+        },
+        {
+          "id": "5-4",
+          "name": "Falafel",
+          "price": 500,
+          "description": "Crispy chickpea balls with tahini."
+        },
+        {
+          "id": "5-5",
+          "name": "Baba Ghanoush",
+          "price": 450,
+          "description": "Smoky eggplant dip."
+        },
+        {
+          "id": "5-6",
+          "name": "Tabbouleh",
+          "price": 400,
+          "description": "Parsley salad with bulgur."
+        },
+        {
+          "id": "5-7",
+          "name": "Koshari",
+          "price": 600,
+          "description": "Street food mix of lentils and pasta."
+        },
+        {
+          "id": "5-8",
+          "name": "Beef Mandi",
+          "price": 1200,
+          "description": "Slow-cooked beef with spiced rice."
+        },
+        {
+          "id": "5-9",
+          "name": "Baklava",
+          "price": 400,
+          "description": "Sweet pastry with nuts and syrup."
+        },
+        {
+          "id": "5-10",
+          "name": "Fatayer",
+          "price": 500,
+          "description": "Spinach-filled pastries."
+        },
+        {
+          "id": "5-11",
+          "name": "Shish Taouk",
+          "price": 800,
+          "description": "Grilled chicken skewers with garlic."
+        },
+        {
+          "id": "5-12",
+          "name": "Lentil Soup",
+          "price": 350,
+          "description": "Warm soup with cumin and lemon."
+        },
+        {
+          "id": "5-13",
+          "name": "Arabic Salad",
+          "price": 300,
+          "description": "Cucumber, tomato, and parsley salad."
+        },
+        {
+          "id": "5-14",
+          "name": "Chicken Biryani",
+          "price": 900,
+          "description": "Spiced rice with chicken."
+        },
+        {
+          "id": "5-15",
+          "name": "Grilled Halloumi",
+          "price": 600,
+          "description": "Grilled cheese with herbs."
+        },
+        {
+          "id": "5-16",
+          "name": "Kunafa",
+          "price": 450,
+          "description": "Sweet cheese pastry with syrup."
+        },
+        {
+          "id": "5-17",
+          "name": "Stuffed Vine Leaves",
+          "price": 500,
+          "description": "Rice-filled grape leaves."
+        },
+        {
+          "id": "5-18",
+          "name": "Ayran",
+          "price": 250,
+          "description": "Refreshing yogurt drink."
+        },
+        {
+          "id": "5-19",
+          "name": "Pita Bread",
+          "price": 100,
+          "description": "Soft Arabic flatbread."
+        },
+        {
+          "id": "5-20",
+          "name": "Mint Tea",
+          "price": 200,
+          "description": "Hot tea with fresh mint."
+        },
+        {
+          "id": "5-21",
+          "name": "Date Shake",
+          "price": 300,
+          "description": "Sweet shake with dates and milk."
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Mama's Kitchen",
+      "cuisineType": "Authentic Kenyan Food",
+      "featured": true,
+      "menu": [
+        {
+          "id": "6-1",
+          "name": "Ugali and Fish",
+          "price": 800,
+          "description": "Lake fish with ugali and greens."
+        },
+        {
+          "id": "6-2",
+          "name": "Nyama Choma",
+          "price": 1000,
+          "description": "Grilled beef with kachumbari."
+        },
+        {
+          "id": "6-3",
+          "name": "Githeri",
+          "price": 300,
+          "description": "Boiled maize and beans mix."
+        },
+        {
+          "id": "6-4",
+          "name": "Mukimo",
+          "price": 350,
+          "description": "Mashed potatoes with peas and corn."
+        },
+        {
+          "id": "6-5",
+          "name": "Sukuma Wiki",
+          "price": 150,
+          "description": "Sautéed collard greens."
+        },
+        {
+          "id": "6-6",
+          "name": "Chapati",
+          "price": 80,
+          "description": "Soft Kenyan flatbread."
+        },
+        {
+          "id": "6-7",
+          "name": "Pilau",
+          "price": 400,
+          "description": "Spiced rice with beef."
+        },
+        {
+          "id": "6-8",
+          "name": "Beef Stew",
+          "price": 600,
+          "description": "Slow-cooked beef in tomato sauce."
+        },
+        {
+          "id": "6-9",
+          "name": "Matoke",
+          "price": 350,
+          "description": "Mashed green bananas."
+        },
+        {
+          "id": "6-10",
+          "name": "Kachumbari",
+          "price": 100,
+          "description": "Fresh tomato and onion salad."
+        },
+        {
+          "id": "6-11",
+          "name": "Chicken Stew",
+          "price": 700,
+          "description": "Chicken in a rich tomato base."
+        },
+        {
+          "id": "6-12",
+          "name": "Fried Tilapia",
+          "price": 900,
+          "description": "Whole tilapia fried with spices."
+        },
+        {
+          "id": "6-13",
+          "name": "Mursik",
+          "price": 250,
+          "description": "Fermented milk drink."
+        },
+        {
+          "id": "6-14",
+          "name": "Nduma",
+          "price": 200,
+          "description": "Boiled arrowroot with salt."
+        },
+        {
+          "id": "6-15",
+          "name": "Bean Stew",
+          "price": 300,
+          "description": "Beans cooked with spices."
+        },
+        {
+          "id": "6-16",
+          "name": "Samosas",
+          "price": 150,
+          "description": "Crispy pastries with beef filling."
+        },
+        {
+          "id": "6-17",
+          "name": "Mandazi",
+          "price": 100,
+          "description": "Sweet fried doughnuts."
+        },
+        {
+          "id": "6-18",
+          "name": "Vegetable Soup",
+          "price": 250,
+          "description": "Soup with mixed vegetables."
+        },
+        {
+          "id": "6-19",
+          "name": "Irio",
+          "price": 350,
+          "description": "Mashed peas, potatoes, and corn."
+        },
+        {
+          "id": "6-20",
+          "name": "Passion Juice",
+          "price": 200,
+          "description": "Fresh passion fruit juice."
+        },
+        {
+          "id": "6-21",
+          "name": "Tea Masala",
+          "price": 150,
+          "description": "Spiced Kenyan tea."
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Burger Bonanza",
+      "cuisineType": "Fast Food",
+      "featured": false,
+      "menu": [
+        {
+          "id": "7-1",
+          "name": "Cheeseburger",
+          "price": 600,
+          "description": "Beef patty with cheese and lettuce."
+        },
+        {
+          "id": "7-2",
+          "name": "Chicken Burger",
+          "price": 550,
+          "description": "Crispy chicken patty with mayo."
+        },
+        {
+          "id": "7-3",
+          "name": "French Fries",
+          "price": 300,
+          "description": "Crispy golden fries."
+        },
+        {
+          "id": "7-4",
+          "name": "Onion Rings",
+          "price": 350,
+          "description": "Crispy fried onion rings."
+        },
+        {
+          "id": "7-5",
+          "name": "Hot Dog",
+          "price": 400,
+          "description": "Sausage in a bun with mustard."
+        },
+        {
+          "id": "7-6",
+          "name": "Chicken Nuggets",
+          "price": 450,
+          "description": "Crispy nuggets with dipping sauce."
+        },
+        {
+          "id": "7-7",
+          "name": "Milkshake",
+          "price": 400,
+          "description": "Vanilla milkshake with whipped cream."
+        },
+        {
+          "id": "7-8",
+          "name": "Cola",
+          "price": 200,
+          "description": "Chilled cola drink."
+        },
+        {
+          "id": "7-9",
+          "name": "BBQ Wings",
+          "price": 600,
+          "description": "Chicken wings with BBQ sauce."
+        },
+        {
+          "id": "7-10",
+          "name": "Veggie Burger",
+          "price": 500,
+          "description": "Vegetable patty with lettuce."
+        },
+        {
+          "id": "7-11",
+          "name": "Fish Fillet Burger",
+          "price": 600,
+          "description": "Crispy fish fillet with tartar sauce."
+        },
+        {
+          "id": "7-12",
+          "name": "Mozzarella Sticks",
+          "price": 400,
+          "description": "Fried cheese sticks with marinara."
+        },
+        {
+          "id": "7-13",
+          "name": "Double Cheeseburger",
+          "price": 800,
+          "description": "Two beef patties with cheese."
+        },
+        {
+          "id": "7-14",
+          "name": "Chili Cheese Fries",
+          "price": 450,
+          "description": "Fries topped with chili and cheese."
+        },
+        {
+          "id": "7-15",
+          "name": "Soda Float",
+          "price": 350,
+          "description": "Cola with a scoop of ice cream."
+        },
+        {
+          "id": "7-16",
+          "name": "Grilled Sandwich",
+          "price": 400,
+          "description": "Ham and cheese grilled sandwich."
+        },
+        {
+          "id": "7-17",
+          "name": "Apple Pie",
+          "price": 300,
+          "description": "Warm apple pie with cinnamon."
+        },
+        {
+          "id": "7-18",
+          "name": "Chicken Wrap",
+          "price": 550,
+          "description": "Chicken and veggies in a tortilla."
+        },
+        {
+          "id": "7-19",
+          "name": "Soft Serve Ice Cream",
+          "price": 250,
+          "description": "Vanilla soft serve cone."
+        },
+        {
+          "id": "7-20",
+          "name": "Lemon Iced Tea",
+          "price": 200,
+          "description": "Refreshing lemon iced tea."
+        },
+        {
+          "id": "7-21",
+          "name": "Brownie",
+          "price": 300,
+          "description": "Warm chocolate brownie."
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Spice Haven",
+      "cuisineType": "Indian",
+      "featured": true,
+      "menu": [
+        {
+          "id": "8-1",
+          "name": "Butter Chicken",
+          "price": 900,
+          "description": "Chicken in a creamy tomato sauce."
+        },
+        {
+          "id": "8-2",
+          "name": "Paneer Tikka",
+          "price": 800,
+          "description": "Grilled paneer with spices."
+        },
+        {
+          "id": "8-3",
+          "name": "Naan Bread",
+          "price": 150,
+          "description": "Soft Indian flatbread."
+        },
+        {
+          "id": "8-4",
+          "name": "Biryani",
+          "price": 950,
+          "description": "Spiced rice with chicken."
+        },
+        {
+          "id": "8-5",
+          "name": "Samosa",
+          "price": 200,
+          "description": "Crispy pastry with potato filling."
+        },
+        {
+          "id": "8-6",
+          "name": "Dal Tadka",
+          "price": 600,
+          "description": "Yellow lentils with spices."
+        },
+        {
+          "id": "8-7",
+          "name": "Aloo Gobi",
+          "price": 700,
+          "description": "Potatoes and cauliflower curry."
+        },
+        {
+          "id": "8-8",
+          "name": "Raita",
+          "price": 250,
+          "description": "Yogurt with cucumber and spices."
+        },
+        {
+          "id": "8-9",
+          "name": "Chicken Tikka Masala",
+          "price": 950,
+          "description": "Spicy chicken in tomato sauce."
+        },
+        {
+          "id": "8-10",
+          "name": "Palak Paneer",
+          "price": 800,
+          "description": "Spinach curry with paneer."
+        },
+        {
+          "id": "8-11",
+          "name": "Vegetable Korma",
+          "price": 750,
+          "description": "Mixed veggies in creamy sauce."
+        },
+        {
+          "id": "8-12",
+          "name": "Puri",
+          "price": 100,
+          "description": "Fried Indian bread."
+        },
+        {
+          "id": "8-13",
+          "name": "Rogan Josh",
+          "price": 1000,
+          "description": "Lamb curry with aromatic spices."
+        },
+        {
+          "id": "8-14",
+          "name": "Chole Bhature",
+          "price": 600,
+          "description": "Chickpea curry with fried bread."
+        },
+        {
+          "id": "8-15",
+          "name": "Mango Lassi",
+          "price": 300,
+          "description": "Sweet mango yogurt drink."
+        },
+        {
+          "id": "8-16",
+          "name": "Gulab Jamun",
+          "price": 350,
+          "description": "Sweet dumplings in syrup."
+        },
+        {
+          "id": "8-17",
+          "name": "Tandoori Chicken",
+          "price": 900,
+          "description": "Marinated chicken grilled in tandoor."
+        },
+        {
+          "id": "8-18",
+          "name": "Jeera Rice",
+          "price": 400,
+          "description": "Cumin-flavored rice."
+        },
+        {
+          "id": "8-19",
+          "name": "Papad",
+          "price": 100,
+          "description": "Crispy lentil crackers."
+        },
+        {
+          "id": "8-20",
+          "name": "Masala Chai",
+          "price": 200,
+          "description": "Spiced Indian tea."
+        },
+        {
+          "id": "8-21",
+          "name": "Kheer",
+          "price": 350,
+          "description": "Rice pudding with nuts."
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Sushi Delight",
+      "cuisineType": "Japanese",
+      "featured": false,
+      "menu": [
+        {
+          "id": "9-1",
+          "name": "California Roll",
+          "price": 800,
+          "description": "Crab, avocado, and cucumber roll."
+        },
+        {
+          "id": "9-2",
+          "name": "Salmon Nigiri",
+          "price": 600,
+          "description": "Fresh salmon on rice."
+        },
+        {
+          "id": "9-3",
+          "name": "Miso Soup",
+          "price": 300,
+          "description": "Soybean soup with tofu and seaweed."
+        },
+        {
+          "id": "9-4",
+          "name": "Tempura Shrimp",
+          "price": 700,
+          "description": "Crispy fried shrimp."
+        },
+        {
+          "id": "9-5",
+          "name": "Edamame",
+          "price": 400,
+          "description": "Steamed soybeans with salt."
+        },
+        {
+          "id": "9-6",
+          "name": "Dragon Roll",
+          "price": 900,
+          "description": "Eel and avocado roll with sauce."
+        },
+        {
+          "id": "9-7",
+          "name": "Tuna Sashimi",
+          "price": 800,
+          "description": "Sliced raw tuna with soy sauce."
+        },
+        {
+          "id": "9-8",
+          "name": "Teriyaki Chicken",
+          "price": 850,
+          "description": "Grilled chicken with teriyaki sauce."
+        },
+        {
+          "id": "9-9",
+          "name": "Udon Noodles",
+          "price": 700,
+          "description": "Thick noodles in broth."
+        },
+        {
+          "id": "9-10",
+          "name": "Gyoza",
+          "price": 500,
+          "description": "Pan-fried dumplings with pork."
+        },
+        {
+          "id": "9-11",
+          "name": "Rainbow Roll",
+          "price": 950,
+          "description": "Assorted fish on a California roll."
+        },
+        {
+          "id": "9-12",
+          "name": "Seaweed Salad",
+          "price": 400,
+          "description": "Marinated seaweed with sesame."
+        },
+        {
+          "id": "9-13",
+          "name": "Katsu Chicken",
+          "price": 800,
+          "description": "Breaded chicken cutlet with sauce."
+        },
+        {
+          "id": "9-14",
+          "name": "Ramen",
+          "price": 900,
+          "description": "Noodle soup with pork and egg."
+        },
+        {
+          "id": "9-15",
+          "name": "Mochi Ice Cream",
+          "price": 400,
+          "description": "Rice cake with ice cream filling."
+        },
+        {
+          "id": "9-16",
+          "name": "Yakitori",
+          "price": 600,
+          "description": "Grilled chicken skewers."
+        },
+        {
+          "id": "9-17",
+          "name": "Soba Noodles",
+          "price": 700,
+          "description": "Buckwheat noodles with dipping sauce."
+        },
+        {
+          "id": "9-18",
+          "name": "Green Tea",
+          "price": 200,
+          "description": "Hot Japanese green tea."
+        },
+        {
+          "id": "9-19",
+          "name": "Takoyaki",
+          "price": 500,
+          "description": "Octopus-filled savory balls."
+        },
+        {
+          "id": "9-20",
+          "name": "Sake",
+          "price": 500,
+          "description": "Warm Japanese rice wine."
+        },
+        {
+          "id": "9-21",
+          "name": "Matcha Latte",
+          "price": 350,
+          "description": "Green tea latte with milk."
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Ocean Breeze",
+      "cuisineType": "Seafood",
+      "featured": true,
+      "menu": [
+        {
+          "id": "10-1",
+          "name": "Grilled Lobster",
+          "price": 2000,
+          "description": "Fresh lobster with garlic butter."
+        },
+        {
+          "id": "10-2",
+          "name": "Fish and Chips",
+          "price": 900,
+          "description": "Crispy fish with fries."
+        },
+        {
+          "id": "10-3",
+          "name": "Shrimp Cocktail",
+          "price": 700,
+          "description": "Chilled shrimp with cocktail sauce."
+        },
+        {
+          "id": "10-4",
+          "name": "Crab Cakes",
+          "price": 850,
+          "description": "Pan-fried crab cakes with remoulade."
+        },
+        {
+          "id": "10-5",
+          "name": "Clam Chowder",
+          "price": 600,
+          "description": "Creamy soup with clams."
+        },
+        {
+          "id": "10-6",
+          "name": "Grilled Salmon",
+          "price": 1200,
+          "description": "Salmon fillet with lemon herb sauce."
+        },
+        {
+          "id": "10-7",
+          "name": "Calamari",
+          "price": 700,
+          "description": "Fried squid rings with marinara."
+        },
+        {
+          "id": "10-8",
+          "name": "Prawn Curry",
+          "price": 1000,
+          "description": "Prawns in a coconut curry sauce."
+        },
+        {
+          "id": "10-9",
+          "name": "Oysters",
+          "price": 800,
+          "description": "Fresh oysters with lemon."
+        },
+        {
+          "id": "10-10",
+          "name": "Tuna Steak",
+          "price": 1100,
+          "description": "Seared tuna with sesame crust."
+        },
+        {
+          "id": "10-11",
+          "name": "Seafood Platter",
+          "price": 2500,
+          "description": "Assorted seafood for sharing."
+        },
+        {
+          "id": "10-12",
+          "name": "Fish Tacos",
+          "price": 700,
+          "description": "Soft tacos with grilled fish."
+        },
+        {
+          "id": "10-13",
+          "name": "Mussels Marinara",
+          "price": 900,
+          "description": "Mussels in tomato sauce."
+        },
+        {
+          "id": "10-14",
+          "name": "Scallops",
+          "price": 1200,
+          "description": "Seared scallops with garlic."
+        },
+        {
+          "id": "10-15",
+          "name": "Coconut Shrimp",
+          "price": 800,
+          "description": "Crispy shrimp with coconut coating."
+        },
+        {
+          "id": "10-16",
+          "name": "Seafood Paella",
+          "price": 1500,
+          "description": "Rice dish with mixed seafood."
+        },
+        {
+          "id": "10-17",
+          "name": "Lemon Sorbet",
+          "price": 400,
+          "description": "Refreshing lemon dessert."
+        },
+        {
+          "id": "10-18",
+          "name": "Garlic Bread",
+          "price": 300,
+          "description": "Toasted bread with garlic."
+        },
+        {
+          "id": "10-19",
+          "name": "Coleslaw",
+          "price": 250,
+          "description": "Creamy cabbage salad."
+        },
+        {
+          "id": "10-20",
+          "name": "White Wine",
+          "price": 600,
+          "description": "Chilled white wine glass."
+        },
+        {
+          "id": "10-21",
+          "name": "Mango Mojito",
+          "price": 450,
+          "description": "Tropical mango cocktail."
+        }
+      ]
+    }
+  ],
+  "cart": [
+    {
+      "id": "3-3",
+      "name": "Fried Rice",
+      "price": 600,
+      "description": "Stir-fried rice with veggies and egg."
+    },
+    {
+      "id": "2-5",
+      "name": "Tiramisu",
+      "price": 600,
+      "description": "Coffee-flavored Italian dessert."
+    },
+    {
+      "id": "5-8",
+      "name": "Beef Mandi",
+      "price": 1200,
+      "description": "Slow-cooked beef with spiced rice."
+    },
+    {
+      "id": "2-2",
+      "name": "Spaghetti Carbonara",
+      "price": 950,
+      "description": "Creamy pasta with bacon and egg."
+    },
+    {
+      "id": "8-2",
+      "name": "Paneer Tikka",
+      "price": 800,
+      "description": "Grilled paneer with spices."
+    },
+    {
+      "id": "9-15",
+      "name": "Mochi Ice Cream",
+      "price": 400,
+      "description": "Rice cake with ice cream filling."
+    },
+    {
+      "id": "7-4",
+      "name": "Onion Rings",
+      "price": 350,
+      "description": "Crispy fried onion rings."
+    },
+    {
+      "id": "1-1",
+      "name": "Grilled Goat Ribs",
+      "price": 1200,
+      "description": "Juicy goat ribs grilled with Kenyan spices."
+    },
+    {
+      "id": "7-11",
+      "name": "Fish Fillet Burger",
+      "price": 600,
+      "description": "Crispy fish fillet with tartar sauce."
+    }
+  ]
+}
