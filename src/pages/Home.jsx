@@ -31,22 +31,27 @@ export default function Home() {
   };
 
   return (
-    <div className="grid grid-cols-2 gap-4 p-4">
+    <div className="max-w-6xl mx-auto p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
       {dishes.map((dish) => (
-        <div key={dish.id} className="border p-4 rounded shadow">
+        <div
+          key={dish.id}
+          className="bg-white rounded-xl shadow hover:shadow-lg transition duration-200 overflow-hidden"
+        >
           <img
             src={dish.image}
             alt={dish.name}
-            className="w-full h-40 object-cover mb-2"
+            className="w-full h-48 object-cover"
           />
-          <h2 className="text-xl font-bold">{dish.name}</h2>
-          <p className="text-gray-700">Price: Ksh {dish.price}</p>
-          <button
-            onClick={() => handleAddToCart(dish)}
-            className="mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
-          >
-            Add to Cart
-          </button>
+          <div className="p-4">
+            <h2 className="text-xl font-semibold text-gray-800">{dish.name}</h2>
+            <p className="text-gray-600 mb-2">Price: Ksh {dish.price}</p>
+            <button
+              onClick={() => handleAddToCart(dish)}
+              className="mt-2 w-full bg-indigo-500 text-white px-4 py-2 rounded hover:bg-indigo-600 transition"
+            >
+              Add to Cart
+            </button>
+          </div>
         </div>
       ))}
     </div>

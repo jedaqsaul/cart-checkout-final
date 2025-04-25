@@ -23,32 +23,47 @@ export default function Checkout() {
   };
 
   return (
-    <div className="checkout-container">
-      <h2>Order Summary</h2>
-      <div className="order-items">
-        {cartItems.map((item) => (
-          <div key={item.id} className="order-item">
-            <p>
-              {item.name} x {item.quantity}
-            </p>
-            <p>Ksh {item.price * item.quantity}</p>
-          </div>
-        ))}
-      </div>
-      <h3>Total: Ksh {totalPrice}</h3>
+    <div className="min-h-screen bg-gray-50 flex items-center justify-center px-4">
+      <div className="max-w-xl w-full bg-white p-8 rounded-xl shadow-md">
+        <h2 className="text-2xl font-bold mb-6 text-center">Order Summary</h2>
 
-      {submitted ? (
-        <div className="success-message">
-          ✅ Order submitted successfully! Redirecting to home...
+        <div className="space-y-4 mb-6">
+          {cartItems.map((item) => (
+            <div
+              key={item.id}
+              className="flex justify-between items-center border-b pb-2"
+            >
+              <p>
+                {item.name} × {item.quantity}
+              </p>
+              <p className="font-medium">Ksh {item.price * item.quantity}</p>
+            </div>
+          ))}
         </div>
-      ) : (
-        <form className="confirmation-form" onSubmit={handleSubmit}>
-          <p>Please confirm your order total above.</p>
-          <button type="submit" disabled={isSubmitting}>
-            {isSubmitting ? "Submitting..." : "Confirm Order"}
-          </button>
-        </form>
-      )}
+
+        <h3 className="text-xl font-semibold mb-6 text-right">
+          Total: Ksh {totalPrice}
+        </h3>
+
+        {submitted ? (
+          <div className="text-green-600 text-center font-medium bg-green-100 p-4 rounded">
+            ✅ Order submitted successfully! Redirecting to home...
+          </div>
+        ) : (
+          <form onSubmit={handleSubmit} className="text-center">
+            <p className="mb-4 text-gray-700">
+              Please confirm your order total above.
+            </p>
+            <button
+              type="submit"
+              disabled={isSubmitting}
+              className="w-full bg-indigo-500 text-white py-3 rounded hover:bg-indigo-600 transition disabled:opacity-50"
+            >
+              {isSubmitting ? "Submitting..." : "Confirm Order"}
+            </button>
+          </form>
+        )}
+      </div>
     </div>
   );
 }
